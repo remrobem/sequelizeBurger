@@ -1,6 +1,12 @@
 var express = require("express");
 var router = express.Router();
 
+// add routes folder - these files require controller and execute the functions in controller
+// in controllerers
+// get function(db,cb) {app.get ('/burger').......
+//route uses the controller
+
+
 // Import the model (burger.js) to use its database functions.
 var db = require("../models/");
 
